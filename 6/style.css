@@ -1,0 +1,106 @@
+body{
+    width: 1440px;
+    font-family: 'League Spartan', sans-serif;
+    background: url(./Images/bg-pattern-top-desktop.svg) top left no-repeat, url(./Images/bg-pattern-bottom-desktop.svg) bottom right no-repeat;
+    
+}
+
+header{
+    color: hsl(300, 43%, 22%);
+    width: 350px;
+    margin: 130px 170px;
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+header p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*BLOQUE REVIEWS*/
+#reviews{
+    float: right;
+    margin-top: -350px;
+}
+
+.score{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 450px;
+    height: 20px;
+    padding-top: 2px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.score img{
+    margin-left: 5px;
+}
+
+.score p{
+    margin-left: 30px;
+}
+
+.score span{
+    margin-left: 30px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+#second{
+    margin-left: 60px;
+}
+
+#third{
+    margin-left: 130px;
+}
+
+/*BLOQUE URSERSREVIEW*/
+.review{
+    background-color: hsl(300, 43%, 22%);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+}
+
+.text{
+    margin-left: 30px;
+}
+
+.review p{
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+
+#usersreview img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.review h2{
+    margin-left: 100px;
+    margin-top: -45px;
+}
+
+.review span{
+    color: hsl(333, 80%, 67%);
+    font-size: 15px;
+}
+
+#irene{
+    margin-left: 450px;
+    margin-top: -235px;
+}
+
+#anne{
+    margin-left: 900px;
+    margin-top: -225px;
+}
